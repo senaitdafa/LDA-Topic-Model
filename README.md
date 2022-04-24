@@ -30,7 +30,16 @@ Save a CSV file of a GDELT database query of news articles in the `./input` fold
 
 
 ## Results
-todo
+The quality of the topics changes with the number of topics that we choose to identify for the model. Our goal was to find high quality, coherent topics that don’t have overlap or repeat. We produced and compared  the coherence score of 20 models, which is depicted in the graph below. We identified 3 models with high coherence scores: models with 6, 10, and 19 topics.
+
+
+After examining the three models, we found that a model 10 topics to have the best coherence. We also were able to find the “dominant topic” for each article in the dataset. Each topic is a collection of keywords, from this, we can manually infer the topic name. Below is the output of the optimal model: it displays each topic, the keywords that describe the topic, the number of documents described by the dominant topic, and the percentage representation of the topic weight in the dataset. 
+
+
+The graph below is interactive, and displays the importance of each keyword in each topic, which allows us to better understand what the label for the topic should be:
+ 
+Finally, the visualization below is our qualitative interpretation of the topic labels, inferred from the keywords and their weights:
+
 
 ## Usage
 ### Content Extraction

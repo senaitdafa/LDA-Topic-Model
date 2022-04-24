@@ -47,6 +47,9 @@ todo
 
 4. Confirm generation of output file:
    - Final output is saved as `OUTPUT.csv` in the `./output` directory.
+
+### Topic Model
+ 1. 
  
 
 ## Additional notes

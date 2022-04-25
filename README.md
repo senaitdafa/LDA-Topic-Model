@@ -46,15 +46,13 @@ Open the project directory and verify that these six items are present:
 - `README.md`
 - `topic_model.ipynb`
 - `extract_content.ipynb`
-- `fuzzy_matching.html`
-- `UpennBox_SL_2020_content_extracted.csv`
 
 ## Input data
 ### Content Extraction
--The content extration input is called `2020.csv`, and is included in the top level of this repository
+-The content extration input is called `2020.csv`, and is downloaded from the UPenn Box 2020 Sierra Leone Folder.
 
 ### Topic Model
--The topic model input is called `UpennBox_SL_2020_content_extracted.csv` and is also included in this repository. This model was developed for a dataset contatining news articles from Sierra Leone in 2020. This file can be replaced with similar GDELT article data. 
+-The topic model input is called `UpennBox_SL_2020_content_extracted.csv` and is included in this repository. This model was developed for a dataset contatining news articles from Sierra Leone in 2020. This file can be replaced with similar GDELT article data. 
 
 
 ## Results

@@ -13,7 +13,13 @@ Video demo:
 - spacy
 
 #### Packages:
-**Content Extraction**:
+**Content Extraction**:\
+-import warnings\
+-import pandas as pd\
+-from datetime import * \
+-from goose3 import Goose\
+-import csv\
+-import time
 
 
 **Topic Model**:\
@@ -40,11 +46,11 @@ Open the project directory and verify that these six items are present:
 - `topic_model.ipynb`
 - `extract_content.ipynb`
 - `fuzzy_matching.html`
-- `./input`
-- `./output`
- 
+- `UpennBox_SL_2020_content_extracted.csv`
+
 ## Input data
-Save a CSV file of a GDELT database query of news articles in the `./input` folder. This model was developed for 2020 Sierra Leone Data, and the original input file can be found in the ./input folder.
+The content extration input is called `2020.csv`, and is included in the top level of this repository.
+The topic model input is called `UpennBox_SL_2020_content_extracted.csv` and is included in this repository. This model was developed for 2020 Sierra Leone Data. This file can be replaced with similar GDELT article data. 
 
 
 ## Results
@@ -60,11 +66,13 @@ The visualization below is our qualitative interpretation of the topic labels, i
 
 ## Usage
 ### Content Extraction
-1. Verify there are two files in the `./input` folder:
+I have indcluded this code to assist with abstracting the topic model in the future. The output of this notebook on the GDELT 2020 Sierra Leone data is already included in this repository as, "UpennBox_SL_2020_content_extracted.csv". 
+
+1. Verify existence of Input File in your repository:
    - A CSV dataset GDELT of news articles.
 2. Configure execution settings:
-   - Set the GDELT_INPUT relative file path
-   - Set the number and range of GDELT rows to process; each row represents one article, and the number of articles is the difference between the start and end rows.
+   - Set the INPUT_CSV to your relative file path
+   - Change start or end date for the articles, batch size, or output name. Further detail is included within the code itself. 
 3. Execute:
    - Press "Run All Cells"
 
@@ -72,9 +80,13 @@ The visualization below is our qualitative interpretation of the topic labels, i
    - Final output is saved as `OUTPUT.csv` in the `./output` directory.
 
 ### Topic Model
- 1. Intial Setup
+1. Verify existence of Input File in your repository:
+   - A CSV dataset GDELT of news articles.
+2. Configure execution settings:
+   - Set the INPUT_CSV to your relative file path
+3. Execute:
+-    - Press "Run All Cells"
 
- 
 ## Next steps
 - Separate the interface and the implementation for the topic model code to allow for ease of abstraction
 - Test implementation viability  on larger datasets such as longer time periods or multiple countries.

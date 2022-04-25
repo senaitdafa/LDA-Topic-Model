@@ -54,7 +54,7 @@ Open the project directory and verify that these six items are present:
 -The content extration input is called `2020.csv`, and is included in the top level of this repository
 
 ### Topic Model
--The topic model input is called `UpennBox_SL_2020_content_extracted.csv` and is also included in this repository. This model was developed for 2020 Sierra Leone Data. This file can be replaced with similar GDELT article data. 
+-The topic model input is called `UpennBox_SL_2020_content_extracted.csv` and is also included in this repository. This model was developed for a dataset contatining news articles from Sierra Leone in 2020. This file can be replaced with similar GDELT article data. 
 
 
 ## Results

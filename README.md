@@ -16,23 +16,23 @@ Video demo:
 **Content Extraction**:
 
 
-**Topic Model**:
--import re
--import nltk 
--from nltk.corpus import stopwords
--import pyLDAvis
--import pyLDAvis.gensim_models
--import gensim
--from gensim import models, similarities
--import gensim.corpora as corpora
--from gensim.corpora import Dictionary
--from gensim.models.coherencemodel import CoherenceModel
--from gensim.models.ldamodel import LdaModel
--import re 
--import pyLDAvis
--import pyLDAvis.gensim_models
--import matplotlib.pyplot as plt 
--import spacy
+**Topic Model**:\
+-import re\
+-import nltk \
+-from nltk.corpus import stopwords\
+-import pyLDAvis\
+-import pyLDAvis.gensim_models\
+-import gensim\
+-from gensim import models, similarities\
+-import gensim.corpora as corpora\
+-from gensim.corpora import Dictionary\
+-from gensim.models.coherencemodel import CoherenceModel\
+-from gensim.models.ldamodel import LdaModel\
+-import re \
+-import pyLDAvis\
+-import pyLDAvis.gensim_models\
+-import matplotlib.pyplot as plt \
+-import spacy\
 
 ## Setup
 Open the project directory and verify that these six items are present:

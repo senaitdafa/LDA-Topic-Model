@@ -48,11 +48,12 @@ Open the project directory and verify that these six items are present:
 - `extract_content.ipynb`
 
 ## Input data
+ This model was developed for a dataset contatining news articles from Sierra Leone in 2020. This file can be replaced with similar GDELT article data. 
 ### Content Extraction
 -The content extration input is called `2020.csv`, and is downloaded from the UPenn Box 2020 Sierra Leone Folder. It also can be downloaded from this link: https://drive.google.com/file/d/12yD1EAaLxs0yshzjl4xOGCqiBvQuLiqY/view?usp=sharing
 
 ### Topic Model
--The topic model input is called `UpennBox_SL_2020_content_extracted.csv` and is included in this repository. This model was developed for a dataset contatining news articles from Sierra Leone in 2020. This file can be replaced with similar GDELT article data. 
+-The topic model input is called `UpennBox_SL_2020_content_extracted.csv`. The file can be found at: https://drive.google.com/file/d/1BePq57vY2YwcfjExNs2Z9f_mhJu39aqQ/view?usp=sharing
 
 
 ## Results

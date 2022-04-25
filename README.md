@@ -35,10 +35,8 @@ The quality of the topics changes with the number of topics that we choose to id
 
 After examining the three models, we found that a model 10 topics to have the best coherence. We also were able to find the “dominant topic” for each article in the dataset. Each topic is a collection of keywords, from this, we can manually infer the topic name. Below is the output of the optimal model: it displays each topic, the keywords that describe the topic, the number of documents described by the dominant topic, and the percentage representation of the topic weight in the dataset. 
 
+The visualization below is our qualitative interpretation of the topic labels, inferred from the keywords and their weights:
 
-The graph below is interactive, and displays the importance of each keyword in each topic, which allows us to better understand what the label for the topic should be:
- 
-Finally, the visualization below is our qualitative interpretation of the topic labels, inferred from the keywords and their weights:
 
 
 ## Usage
@@ -50,20 +48,14 @@ Finally, the visualization below is our qualitative interpretation of the topic 
    - Set the number and range of GDELT rows to process; each row represents one article, and the number of articles is the difference between the start and end rows.
 3. Execute:
    - Press "Run All Cells"
-   - The output data is saved in the `./output` folder in CSV format.
-   - If execution stops, it can be resumed by starting at the most recent cell that loads a progress output file.
-   - Keep the saved progress output files to avoid unnecessary re-execution of all cells.
 
 4. Confirm generation of output file:
    - Final output is saved as `OUTPUT.csv` in the `./output` directory.
 
 ### Topic Model
- 1. 
+ 1. Intial Setup
+
  
-
-## Additional notes
-todo
-
 ## Next steps
 - Separate the interface and the implementation for the topic model code to allow for ease of abstraction
 - Test implementation viability  on larger datasets such as longer time periods or multiple countries.

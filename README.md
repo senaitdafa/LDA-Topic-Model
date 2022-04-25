@@ -36,6 +36,7 @@ The quality of the topics changes with the number of topics that we choose to id
 After examining the three models, we found that a model 10 topics to have the best coherence. We also were able to find the “dominant topic” for each article in the dataset. Each topic is a collection of keywords, from this, we can manually infer the topic name. Below is the output of the optimal model: it displays each topic, the keywords that describe the topic, the number of documents described by the dominant topic, and the percentage representation of the topic weight in the dataset. 
 
 The visualization below is our qualitative interpretation of the topic labels, inferred from the keywords and their weights:
+![Untitled Diagram](https://user-images.githubusercontent.com/29438079/165037857-17e0717a-344e-4bb3-92dc-1afe96dfa0fa.png)
 
 
 

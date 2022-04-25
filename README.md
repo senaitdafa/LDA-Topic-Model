@@ -41,7 +41,7 @@ Video demo:
 -import pyLDAvis\
 -import pyLDAvis.gensim_models\
 -import matplotlib.pyplot as plt \
--import spacy\
+-import spacy
 
 ## Setup
 Open the project directory and verify that these six items are present:

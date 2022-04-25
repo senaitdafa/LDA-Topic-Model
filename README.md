@@ -2,7 +2,9 @@
 
 This project identifies salient themes from news articles collected by GDELT in Sierra Leone.
 It contains two notebooks: 
+
   1.) extract_content.ipynb: Extracts text from online documents and articles.
+  
   2.) topic_model.ipynb: Identifies the most common themes from the extracted textual data above.
 Video demo: 
 
